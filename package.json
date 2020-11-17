@@ -1,0 +1,15 @@
+{
+  "name": "bikemap",
+  "version": "1.0.0",
+  "description": "Bikemap challenge",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "map33": "^0.2.0",
+    "three": "~0.118.3"
+  }
+}
