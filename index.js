@@ -56,7 +56,9 @@ scene.add(axesHelper)
 //Map
 const position = [vertices[0], vertices[1]]
 
-const source = new Source('maptiler', process.env.API_KEY)
+const apiKey = process.env.API_KEY;
+
+const source = new Source('maptiler', apiKey)
 const map = new Map(scene, camera, source, position, 3, 10)
 
 //Route
